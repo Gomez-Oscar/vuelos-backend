@@ -1,0 +1,67 @@
+{
+  "vuelos": [
+    {
+      "id": "1",
+      "origen": "Ciudad de Origen",
+      "destino": "Ciudad de Destino",
+      "fecha_salida": "2023-10-10T08:00:00Z",
+      "fecha_llegada": "2023-10-10T10:30:00Z",
+      "precio": 300.0,
+      "disponibilidad": 50,
+      "asientos": {
+        "clase_economica": {
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    }
+  ],
+  "tiquetes": [
+    {
+      "id": "12345",
+      "nombre_pasajero": "Nombre Apellido",
+      "vuelo_id": "1",
+      "fecha_compra": "2023-10-05T15:30:00Z",
+      "asiento": "A3",
+      "precio_total": 300.0
+    },
+    {
+      "id": "54321",
+      "nombre_pasajero": "Otro Nombre",
+      "vuelo_id": "2",
+      "fecha_compra": "2023-10-06T09:45:00Z",
+      "asiento": "B1",
+      "precio_total": 250.0
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "name": "oscar",
+      "email": "oscar@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 2,
+      "name": "luis",
+      "email": "luis@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 3,
+      "name": "angie",
+      "email": "angie@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": 4,
+      "name": "cristian",
+      "email": "cristian@gmail.com",
+      "password": "1234"
+    }
+  ]
+}
