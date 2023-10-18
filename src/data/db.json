@@ -1,15 +1,756 @@
 {
   "vuelos": [
     {
-      "id": "1",
-      "origen": "Ciudad de Origen",
-      "destino": "Ciudad de Destino",
-      "fecha_salida": "2023-10-10T08:00:00Z",
-      "fecha_llegada": "2023-10-10T10:30:00Z",
-      "precio": 300.0,
-      "disponibilidad": 50,
+      "id": 1,
+      "origen": "Cúcuta",
+      "destino": "Medellín",
+      "fecha_salida": "2023-11-16T06:59:00",
+      "fecha_llegada": "2023-11-16T07:37:00",
+      "precio": 121926,
+      "disponibilidad": 9,
       "asientos": {
         "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 2,
+      "origen": "Medellín",
+      "destino": "Cartagena",
+      "fecha_salida": "2023-11-09T05:12:00",
+      "fecha_llegada": "2023-11-09T07:31:00",
+      "precio": 166251,
+      "disponibilidad": 96,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 3,
+      "origen": "Medellín",
+      "destino": "Pereira",
+      "fecha_salida": "2023-11-05T00:38:00",
+      "fecha_llegada": "2023-11-05T02:00:00",
+      "precio": 134398,
+      "disponibilidad": 99,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 4,
+      "origen": "Pereira",
+      "destino": "Villavicencio",
+      "fecha_salida": "2023-11-04T13:19:00",
+      "fecha_llegada": "2023-11-04T19:41:00",
+      "precio": 286450,
+      "disponibilidad": 94,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 5,
+      "origen": "Santa Marta",
+      "destino": "Manizales",
+      "fecha_salida": "2023-11-11T04:54:00",
+      "fecha_llegada": "2023-11-11T06:33:00",
+      "precio": 149133,
+      "disponibilidad": 90,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 6,
+      "origen": "Manizales",
+      "destino": "Pereira",
+      "fecha_salida": "2023-11-21T23:07:00",
+      "fecha_llegada": "2023-11-21T00:45:00",
+      "precio": 167325,
+      "disponibilidad": 41,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 7,
+      "origen": "Cartagena",
+      "destino": "Cali",
+      "fecha_salida": "2023-11-25T10:06:00",
+      "fecha_llegada": "2023-11-25T04:45:00",
+      "precio": 201510,
+      "disponibilidad": 34,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 8,
+      "origen": "Pereira",
+      "destino": "Barranquilla",
+      "fecha_salida": "2023-11-24T13:56:00",
+      "fecha_llegada": "2023-11-24T15:13:00",
+      "precio": 282856,
+      "disponibilidad": 66,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 9,
+      "origen": "Cartagena",
+      "destino": "Bogotá",
+      "fecha_salida": "2023-11-06T07:54:00",
+      "fecha_llegada": "2023-11-06T10:22:00",
+      "precio": 204441,
+      "disponibilidad": 14,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 10,
+      "origen": "Barranquilla",
+      "destino": "Medellín",
+      "fecha_salida": "2023-11-16T16:25:00",
+      "fecha_llegada": "2023-11-16T18:17:00",
+      "precio": 222925,
+      "disponibilidad": 52,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 11,
+      "origen": "Cúcuta",
+      "destino": "Bogotá",
+      "fecha_salida": "2023-11-11T18:38:00",
+      "fecha_llegada": "2023-11-11T21:54:00",
+      "precio": 105852,
+      "disponibilidad": 67,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 12,
+      "origen": "Bogotá",
+      "destino": "Barranquilla",
+      "fecha_salida": "2023-11-06T17:35:00",
+      "fecha_llegada": "2023-11-06T19:34:00",
+      "precio": 124907,
+      "disponibilidad": 57,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 13,
+      "origen": "Barranquilla",
+      "destino": "Pereira",
+      "fecha_salida": "2023-11-28T23:25:00",
+      "fecha_llegada": "2023-11-28T01:19:00",
+      "precio": 276775,
+      "disponibilidad": 82,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 14,
+      "origen": "Cartagena",
+      "destino": "Pereira",
+      "fecha_salida": "2023-11-22T09:43:00",
+      "fecha_llegada": "2023-11-22T11:25:00",
+      "precio": 156399,
+      "disponibilidad": 70,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 15,
+      "origen": "Cúcuta",
+      "destino": "Medellín",
+      "fecha_salida": "2023-11-05T12:33:00",
+      "fecha_llegada": "2023-11-05T14:15:00",
+      "precio": 231564,
+      "disponibilidad": 66,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 16,
+      "origen": "Cartagena",
+      "destino": "Cúcuta",
+      "fecha_salida": "2023-11-05T21:17:00",
+      "fecha_llegada": "2023-11-05T23:39:00",
+      "precio": 217499,
+      "disponibilidad": 96,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 17,
+      "origen": "Pereira",
+      "destino": "Medellín",
+      "fecha_salida": "2023-11-12T13:04:00",
+      "fecha_llegada": "2023-11-12T15:29:00",
+      "precio": 230389,
+      "disponibilidad": 86,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 18,
+      "origen": "Cúcuta",
+      "destino": "Manizales",
+      "fecha_salida": "2023-11-01T20:14:00",
+      "fecha_llegada": "2023-11-01T22:28:00",
+      "precio": 137228,
+      "disponibilidad": 11,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 19,
+      "origen": "Medellín",
+      "destino": "Villavicencio",
+      "fecha_salida": "2023-11-17T06:09:00",
+      "fecha_llegada": "2023-11-17T08:26:00",
+      "precio": 277565,
+      "disponibilidad": 45,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        }
+      }
+    },
+    {
+      "id": 20,
+      "origen": "Barranquilla",
+      "destino": "Santa Marta",
+      "fecha_salida": "2023-11-09T11:18:00",
+      "fecha_llegada": "2023-11-09T13:39:00",
+      "precio": 268553,
+      "disponibilidad": 94,
+      "asientos": {
+        "clase_economica": {
+          "precio_agregado": 0,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "clase_ejecutiva": {
+          "precio_agregado": 100000,
+          "filas": 10,
+          "asientos_por_fila": 6,
+          "asientos_disponibles": [
+            ["A1", "A2", "A3", "A4", "A5", "A6"],
+            ["B1", "B2", "B3", "B4", "B5", "B6"]
+          ]
+        },
+        "primera_clase": {
+          "precio_agregado": 200000,
           "filas": 10,
           "asientos_por_fila": 6,
           "asientos_disponibles": [
